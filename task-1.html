@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1-ci task
+a=3
+b=4
+c=5
+console.log(Math.pow(a, 2)+Math.pow(b, 2)+Math.pow(c,2));
+// 2-ci task
+a=5
+    b=8
+    c=11
+console.log((a+b+c)/3);
+//3-cu task
+for(i=1; i<101; i+=1)
+    console.log(i);
+    //4-cu task
+    for(i=0; i<101; i+=2)
+console.log(i);
+//5-ci task
+for(i=3; i<102; i+=3)
+        console.log(i);
+        //6ci task
+        for (let eded = 2; eded <= 100; eded++) { 
+        let a=true;
+       for (let bolen = 2; bolen < eded; bolen++){
+    if (eded%bolen==0) {
+      a=false;
+      break;
+    }
+  }
+  if(a==true){
+    console.log(eded);
+  }
+      
+    }
+    // 7 ci task
+    let text = ""
+ for (let setir = 1; setir < 6; setir++) {
+            for (let ulduz = 1; ulduz <6; ulduz++) {
+                text = text + "*";
+            }
+            text =text + "\n";
+            
+           }
+            console.log(text);
+        //8-ci task
+        let text = "";
+      for (let setir = 5; setir > 0; setir--) {
+            for (let ulduz = 0; ulduz < setir; ulduz++) {
+               text =text + "*";
+            }
+            text += "\n";
+       }
+       
+        console.log(text);
+        //9cu task
+        let eded = 128;
+    while(eded%2==0){
+        eded=eded/2;
+    }
+        if(eded==1){
+            console.log("eded ikinin ustudur")
+        }else{
+            console.log("eded ikini ustu deyil");
+        }
+    // 10 cu task
+    let number=500;
+        let count = 1;
+        while ((number = number / 10)>=1){
+            count++;
+        }
+        console.log(count);
+        //11-ci Task
+        const cars = ["BMW", "Mercedes", "Toyota", "Audi", "Nissan"];
+        let car="Lada";
+        let a = cars.find(item);
+            if(car === item) {
+             Console.log(true);
+            }
+            //12 task
+            let a = [2,4,7,12,9,10,45];
+    const b = Math.max (...a);
+    console.log(b);
+    //13 cu task
+    let a = 180
+        let b = 95
+        let c = 120
+        let x = 200
+        let y = 90
+        if((x>a && y>b)|| (x>a && y>c) || (x>b && y>c) || (x>b && y>a) || (x>c && y>b) || (x>c && y>a)){
+            console.log("Şkaf qapidan keçər");
+        }
+        else{
+            console.log("Şkaf qapidan keçməz");
+        }
+        </script>
+</body>
+</html>
